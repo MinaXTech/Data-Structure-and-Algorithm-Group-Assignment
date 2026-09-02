@@ -102,11 +102,11 @@ Circular Singly Linked List
 g++ -o singly circular_singly.cpp
 ./singly
 
-## 📸 Screenshots
+## 📸 images
 
 ### Task One Output
 
-images/task-one-output.png
+screenshots/task-one-output.png
 
 ### Task Two Output
 
