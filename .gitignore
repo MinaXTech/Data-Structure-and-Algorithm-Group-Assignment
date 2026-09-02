@@ -1,0 +1,19 @@
+# Compiled executable
+assignment
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Backup
+*.bak
+*.tmp
+*.log
+*~
