@@ -1,0 +1,6 @@
+1. Create the following node(7,3,8,1 and 33) in circular doubly linked list.
+2. Adding node to the end in circular single linked list.
+3. Adding node to the front in circular doubly linked list.
+4. Adding node to the left of a specific value in circular doubly linked list.
+5. Display a nodes in doubly circular linked list in forward and backward manner.
+6. Adding node to the right of a specific value in circular double linked list.
