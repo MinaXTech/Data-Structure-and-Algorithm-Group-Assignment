@@ -16,7 +16,7 @@ Node* createNode(int value) {
     return newNode;
 }
 
-// Task 2
+// Question 2
 void insertAtEnd(Node*& head, int value) {
     Node* newNode = createNode(value);
     if (head == nullptr) {
@@ -30,7 +30,7 @@ void insertAtEnd(Node*& head, int value) {
     head->prev    = newNode;
 }
 
-// Task 3
+// Question 3
 void insertAtFront(Node*& head, int value) {
     Node* newNode = createNode(value);
     if (head == nullptr) {
@@ -45,7 +45,7 @@ void insertAtFront(Node*& head, int value) {
     head          = newNode;
 }
 
-// Task 4
+// Question 4
 void insertLeft(Node*& head, int target, int value) {
     if (head == nullptr) {
         cout << "List is empty.\n";
@@ -72,7 +72,7 @@ void insertLeft(Node*& head, int target, int value) {
 }
 
 
-// Task 5
+// Question 5
 void displayForward(Node* head) {
     if (head == nullptr) {
         cout << "  [Empty list]\n";
@@ -88,7 +88,7 @@ void displayForward(Node* head) {
 
 }
 
-// Task 5
+// Question 5
 void displayBackward(Node* head) {
     if (head == nullptr) {
         cout << "  [Empty list]\n";
@@ -104,7 +104,7 @@ void displayBackward(Node* head) {
     } while (temp != tail);
     cout << " -> (back to tail)\n";
 }
-// Task 6
+// Question 6
 void insertRight(Node*& head, int target, int value) {
     if (head == nullptr) {
         cout << "List is empty.\n";
@@ -134,7 +134,7 @@ int main() {
 
     Node* head = nullptr;
 
-    // Task 1
+    // Question 1
     cout << "\n\nTask 1: Create nodes (7, 3, 8, 1, 33)\n";
     int values[] = {7, 3, 8, 1, 33};
     for (int i = 0; i < 5; i++) {
@@ -144,34 +144,34 @@ int main() {
     cout << "\n";
     displayForward(head);
 
-    // Task 2
-    cout << "\n\n\n\n\n\n\n\nTask 2: Add node (99) at the END\n";
+    // Question 2
+    cout << "\n\nTask 2: Add node (99) at the END\n";
     insertAtEnd(head, 99);
     cout << "  Inserted 99 at the end.\n\n";
     displayForward(head);
 
 
-    // Task 3
-    cout << "\n\n\n\n\n\n\n\nTask 3: Add node (55) at the FRONT\n";
+    // Question 3
+    cout << "\n\nTask 3: Add node (55) at the FRONT\n";
     insertAtFront(head, 55);
     cout << "  Inserted 55 at the front.\n\n";
     displayForward(head);
 
 
-    // Task 4
-    cout << "\n\n\n\n\n\n\n\nTask 4: Add node (77) to the LEFT of 8\n";
+    // Question 4
+    cout << "\n\nTask 4: Add node (77) to the LEFT of 8\n";
     insertLeft(head, 8, 77);
     cout << "  Inserted 77 to the left of 8.\n\n";
     displayForward(head);
 
 
-    // Task 5
-    cout << "\n\n\n\n\n\n\n\nTask 5: Display Forward and Backward\n";
+    // Question 5
+    cout << "\n\nTask 5: Display Forward and Backward\n";
     displayForward(head);
     displayBackward(head);
 
-    // Task 6
-    cout << "\n\n\n\n\n\n\n\nTask 6: Add node (44) to the RIGHT of 3\n";
+    // Question 6
+    cout << "\n\nTask 6: Add node (44) to the RIGHT of 3\n";
     insertRight(head, 3, 44);
     cout << "  Inserted 44 to the right of 3.\n\n";
     displayForward(head);
