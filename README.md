@@ -106,28 +106,27 @@ g++ -o singly circular_singly.cpp
 
 ### Task One Output
 
-images/task-one-output.png
+![Task One Output](images/screenshots/task-one-output.png)
 
 ### Task Two Output
 
-images/task-two-output.png
+![Task Two Output](images/screenshots/task-two-output.png)
 
 ### Code Sample One
 
-images/code-sample-one.png
+![Code Sample One](images/screenshots/code-sample-one.png)
 
 ### Code Sample Two
 
-images/code-sample-two.png
+![Code Sample Two](images/screenshots/code-sample-two.png)
 
-## 👥 Group Members
+## 👨‍💻 Contributors
 
-No. Full Name           
-1   Minase Mengesha
-2   Natnael Andualem
-3   Naol Garomsa
-4   Natanim Chombe
-5   Amen Yehualashet
+- Minase Mengesha
+- Natnael Andualem
+- Naol Garomsa
+- Natanim Chombe
+- Amen Yehualashet
 
 Department of Software Engineering, College of Engineering and Technology, Wachemo University
 
@@ -148,10 +147,8 @@ This project demonstrates the practical application of concepts learned in:
 
 ## 📜 License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
-We would like to thank our DSA Instructor for providing us with this assignment and for teaching us the concepts of data structures and algorithms. Special thanks to all group members for their dedication and teamwork.
-
-"Together we achieve more!" 🚀
+We would like to thank our DSA Instructors for providing us with this assignment and for teaching us the concepts of data structures and algorithms. Special thanks to all group members for their dedication and teamwork.
